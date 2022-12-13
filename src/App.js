@@ -8,14 +8,14 @@ function App() {
     <div className='list'>
       <div>
         <div className='container'>
-          <img src={Photo1} width='300px' alt='pic'/>
+          <img src={ Photo1 } width='300px' alt='pic'/>
         </div>
         <div className='container'>
           <h1>To Do List</h1>
         </div>
         <ToDoList />
         <div className='container'>
-          <img src={Photo2} width='300px' alt='pic'/>
+          <img src={ Photo2 } width='300px' alt='pic'/>
         </div>
       </div>
     </div>
